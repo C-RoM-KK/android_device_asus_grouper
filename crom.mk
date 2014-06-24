@@ -1,9 +1,9 @@
 # Release name
 PRODUCT_RELEASE_NAME := Nexus7
 
-# Boot animation
-TARGET_SCREEN_HEIGHT := 1280
-TARGET_SCREEN_WIDTH := 800
+# Bootanimation
+TARGET_SCREEN_HEIGHT := 1920
+TARGET_SCREEN_WIDTH := 1200
 
 # Inherit some common CM stuff.
 $(call inherit-product, vendor/crom/config/common_full_tablet_wifionly.mk)
